@@ -1,42 +1,90 @@
-CCNA là chứng chỉ quốc tế về lĩnh vực mạng máy tính do Cisco Systems cấp, được công nhận tại hơn 150 quốc gia. CCNA (Cisco Certified Network Associate) là chứng chỉ cấp độ cơ bản, dành cho những người muốn bắt đầu sự nghiệp trong lĩnh vực mạng máy tính. 
-CCNA là gì?
-CCNA là chứng chỉ của Cisco Systems, một công ty hàng đầu thế giới về thiết bị mạng. Nó xác nhận kiến thức và kỹ năng của người sở hữu trong việc cài đặt, cấu hình, vận hành và khắc phục sự cố các mạng máy tính sử dụng thiết bị Cisco. CCNA được coi là một chứng chỉ quan trọng và được nhiều nhà tuyển dụng yêu cầu. 
-Tại sao nên học CCNA?
+# CCNA Study Roadmap
 
-    Nhu cầu thị trường cao:
-    Ngành công nghệ thông tin, đặc biệt là mạng máy tính, luôn có nhu cầu tuyển dụng lớn, và chứng chỉ CCNA là một lợi thế khi xin việc. 
+## Giới thiệu
 
-Kiến thức nền tảng vững chắc:
-CCNA cung cấp kiến thức cơ bản và toàn diện về mạng máy tính, giúp người học hiểu rõ cách thức hoạt động của các mạng LAN, WAN và Internet. 
-Cơ hội nghề nghiệp:
-CCNA mở ra nhiều cơ hội việc làm trong các lĩnh vực như quản trị mạng, kỹ thuật viên mạng, và chuyên viên tư vấn mạng. 
-Thu nhập cao:
-Những người có chứng chỉ CCNA thường có mức lương hấp dẫn hơn so với những người không có. 
-Chứng chỉ quốc tế:
-CCNA được công nhận trên toàn cầu, giúp người sở hữu dễ dàng tìm kiếm việc làm ở nhiều quốc gia. 
+**CCNA (Cisco Certified Network Associate)** là chứng chỉ mạng cơ bản và rất phổ biến trên thế giới, dành cho những ai muốn bắt đầu hoặc phát triển sự nghiệp trong lĩnh vực mạng máy tính. Chứng chỉ này cung cấp nền tảng vững chắc về lý thuyết mạng, các thiết bị và công nghệ mạng của Cisco, cũng như kỹ năng cấu hình, vận hành, xử lý sự cố các hệ thống mạng nhỏ và vừa.
 
-Lộ trình học CCNA:
+---
 
-    1. Tìm hiểu về CCNA:
-    Hiểu rõ về chứng chỉ, nội dung thi, và các tài liệu học tập. 
+## Mục tiêu của tài liệu
 
-2. Chọn khóa học:
-Tham gia các khóa học CCNA tại các trung tâm uy tín hoặc tự học qua tài liệu trực tuyến. 
-3. Ôn luyện:
-Tập trung vào các kiến thức về Network Fundamentals, Switching, Routing, IP Services và WAN. 
-4. Thi chứng chỉ:
-Đăng ký thi CCNA 200-301 tại các trung tâm được Cisco ủy quyền. 
+- Hệ thống hóa toàn bộ kiến thức CCNA từ cơ bản đến nâng cao.
+- Hướng dẫn từng bước cấu hình Router, Switch, Wireless, Security trên thiết bị Cisco.
+- Hỗ trợ thực hành thực tế với Packet Tracer/GNS3.
+- Chuẩn bị kiến thức và kỹ năng vững chắc cho kỳ thi **CCNA 200-301**.
 
-Các chủ đề chính trong CCNA:
+---
 
-    Network Fundamentals: Các khái niệm cơ bản về mạng, OSI model, TCP/IP, địa chỉ IP, subnetting, v.v.
-    Switching: Kiến thức về switching, VLAN, trunking, EtherChannel, v.v.
-    Routing: Kiến thức về định tuyến tĩnh, định tuyến động (OSPF, EIGRP), v.v.
-    IP Services: DHCP, DNS, NAT, ACL, v.v.
-    WAN: Frame Relay, VPN, PPPoE, v.v. 
+## Nội dung chính
 
-Lưu ý:
+### 1. Tổng quan về mạng máy tính
 
-    Chứng chỉ CCNA có thời hạn 3 năm, sau đó cần thi lại hoặc thi chứng chỉ cao hơn. 
+- Các khái niệm, mô hình OSI & TCP/IP, vai trò của mạng máy tính.
+- Các thiết bị mạng: Router, Switch, Hub, Access Point, Firewall.
 
-Chi phí thi CCNA khoảng 300 USD, tuy nhiên, tổng chi phí có thể lên đến 600-1200 USD nếu bao gồm cả học phí và tài liệu. 
+### 2. Địa chỉ IP & Subnetting
+
+- Địa chỉ IPv4, IPv6.
+- Subnetting, VLSM, tính toán mạng con.
+- NAT, PAT và các kỹ thuật chuyển đổi địa chỉ mạng.
+
+### 3. Routing (Định tuyến)
+
+- Static Routing, Default Routing.
+- Dynamic Routing: RIP, OSPF, EIGRP.
+- Cấu hình, giám sát, kiểm tra và xử lý lỗi routing.
+
+### 4. Switching (Chuyển mạch)
+
+- VLAN, Trunking, InterVLAN Routing.
+- STP (Spanning Tree Protocol), EtherChannel.
+- Port Security, DHCP Snooping.
+
+### 5. Wireless & Security
+
+- Thiết lập mạng không dây cơ bản.
+- Các khái niệm bảo mật: ACL, Port Security, DHCP Spoofing.
+
+### 6. Quản trị & xử lý sự cố
+
+- Sao lưu/khôi phục cấu hình thiết bị.
+- Quản lý thiết bị từ xa: Telnet, SSH, Console.
+- Các lệnh kiểm tra trạng thái thiết bị, phân tích log.
+
+---
+
+## Công cụ & Tài liệu khuyến nghị
+
+- **Cisco Packet Tracer** (miễn phí cho sinh viên) hoặc **GNS3** để thực hành mô phỏng.
+- Sách: “CCNA 200-301 Official Cert Guide” (Vol 1 & 2), hoặc các tài liệu chính hãng từ Cisco.
+- Video khóa học trên Udemy, CBT Nuggets, YouTube.
+- Các trang luyện thi: [examtopics.com](https://www.examtopics.com/), [cisco.com](https://learningnetwork.cisco.com/), [networklessons.com](https://networklessons.com/).
+
+---
+
+## Phương pháp học tập hiệu quả
+
+1. **Học lý thuyết kèm thực hành:** Sau mỗi chương, hãy thực hành cấu hình trực tiếp trên mô phỏng.
+2. **Tóm tắt & vẽ sơ đồ:** Ghi chú lại lệnh quan trọng, vẽ mindmap tổng quan kiến thức.
+3. **Làm bài tập & đề thi thử:** Luyện đề đều đặn, bám sát cấu trúc đề thi chính thức.
+4. **Tham gia cộng đồng:** Hỏi đáp, chia sẻ kiến thức tại các nhóm Facebook, diễn đàn về Cisco/CCNA.
+5. **Kiên trì & lặp lại:** Ôn lại những phần chưa chắc, luyện đi luyện lại bài lab, cấu hình mẫu.
+
+---
+
+## Gợi ý lộ trình 30 ngày
+
+- **Tuần 1:** Lý thuyết mạng, mô hình OSI, các thiết bị cơ bản.
+- **Tuần 2:** Địa chỉ IP, Subnetting, Routing tĩnh và động.
+- **Tuần 3:** Switching, VLAN, Wireless, bảo mật cơ bản.
+- **Tuần 4:** Thực hành tổng hợp, xử lý sự cố, luyện đề thi thử.
+
+---
+
+## Đóng góp & liên hệ
+
+Mọi ý kiến đóng góp, bổ sung tài liệu hoặc thắc mắc xin gửi về email: [your-email@example.com] hoặc tạo Issue/Pull Request trên GitHub.
+
+---
+
+**Chúc các bạn học tập hiệu quả và đạt chứng chỉ CCNA thành công!**
